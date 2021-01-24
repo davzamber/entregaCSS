@@ -1,0 +1,97 @@
+body{
+	text-align: justify;
+	background-image: url(../img/fondo.jpg);
+}
+.indice{
+	width: 35%;
+	background-color: #223A5E;
+	color: white;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	display: block;
+	box-sizing: content-box;
+	padding: 5px;
+
+
+
+}
+header::first-letter{
+	font-size: 1.5em;
+}
+.header{
+	background-color: #223A5E;
+	border-bottom: solid;
+	border-bottom-color: grey;
+	text-align: center;
+	font-size: 1.8em;
+	font-style: bold;
+	border-bottom-width: 5px;
+	color: white;
+
+}
+a:link, a:visited, a:active{
+	text-decoration: none;
+	color: #F6D155;
+}
+a:hover{
+	text-decoration: underline;
+}
+.principal{
+	margin-right: 15%;
+	margin-left: 20%;
+}
+.titulo{
+	color: brown;
+}
+.linea{
+	border-bottom: 1px solid brown;
+}
+.imagen{
+	border: 3px solid;
+	display: block;
+	margin: auto;
+	color: grey;
+}
+.tablas{
+	border-spacing: 0px;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	padding: 10px;
+	border: none;
+}
+.fila1{
+	color: white;
+	background-color: #223A5E;
+}
+.filasp{
+	background-color: #D49F75;
+	color: black;
+}
+.filasi{
+	background-color: #C48F65;
+	color: black;
+}
+.imagenes{
+	display: inline-block;
+	max-width: 98%;
+	height: auto;
+	width: 30%;
+	margin: 1%;
+}
+.pp{
+	display: inline-block;
+	max-width: 98%;
+	height: auto;
+	width: 30%;
+	margin: 1%;
+}
+footer{
+	border-top: 5px solid grey;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	text-align: center;
+	background-color: #223A5E;
+	color: white;
+	padding: 5px; 
+}
